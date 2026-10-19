@@ -1,0 +1,31 @@
+name: Weekly Supabase backup
+
+on:
+  schedule:
+    - cron: "0 20 * * 6"
+  workflow_dispatch:
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests python-dotenv
+
+      - name: Backup tables
+        run: python backup.py --telegram
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: supabase-backup
+          path: backups/*.zip
+          retention-days: 90

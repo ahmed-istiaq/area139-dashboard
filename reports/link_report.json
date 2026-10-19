@@ -1,0 +1,753 @@
+{
+  "generated_at": "2026-10-18T16:45:43+00:00",
+  "summary": {
+    "BROKEN": 2,
+    "WARN": 0,
+    "SKIP": 0,
+    "OK": 90,
+    "total": 92
+  },
+  "notes": [],
+  "results": [
+    {
+      "url": "https://www.facebook.com/share/1CaAhKz5Vb/",
+      "status": "BROKEN",
+      "detail": "HTTP 400",
+      "sources": [
+        "static: (page)"
+      ]
+    },
+    {
+      "url": "https://x.com/@AhmedIstiayj5r",
+      "status": "BROKEN",
+      "detail": "HTTP 404 not found",
+      "sources": [
+        "static: (page)"
+      ]
+    },
+    {
+      "url": "https://ahmed-istiaq.github.io/",
+      "status": "OK",
+      "detail": "HTTP 200",
+      "sources": [
+        "static: (page)"
+      ]
+    },
+    {
+      "url": "https://ahmed-istiaq.github.io/ahmeds_portfolio/",
+      "status": "OK",
+      "detail": "HTTP 200",
+      "sources": [
+        "static: (page)"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/drive/folders/1b1ixcCMX2SOGpvyt_wX4EgVL51O6VvuG",
+      "status": "OK",
+      "detail": "reachable",
+      "sources": [
+        "static: RMU 1st Prof Written Question Bank",
+        "db override: RMU 1st Prof Written Question Bank"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=12OR1ab0AGLp7BqkC3Hq8NRHRUWBvj-44",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "db post: [Infrex]  Prof Viva Card Questions"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=17LhqQhDeGiiOBjCdEQYCW1Asm8TJsRCK",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "static: Card-4 (Clinical Biochemistry & Endocrinology)"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1DEOzd000mcojoCS6NjKNEidxIsHyStA3",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "db override: THORAX Prof Viva Card Questions"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1HSbRliuiOFDQPzSHHWunm2XbKbqpBRYM",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "db post: [2nd Term]  Physiology (Prof Edition)"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1Jr5FXGFPbNrQbRzdpAQM1ScnECqtXPj5",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "static: Topics of Suprex"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1MNrMh49YlAoj9n_R9qwu53_f0fbr1kjp",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "db post: [3rd Term]  Physiology  (Prof Edition)"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1N978QWMbkqOY6NCpZhGkbd7PzFa80YRl",
+      "status": "OK",
+      "detail": "reachable",
+      "sources": [
+        "static: Langman Medical Embryology (13th Ed)"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1P8uzQoZ9iPhXRZfbtWztb9Z9R6TlWULx",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "db post: [Board-II] Anatomy Special Figure Analysis"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1Q4usohj8sueUVli9xIj2nWWEsDosssoi",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "db post: [Embryology]  Prof Viva Card Questions"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1QjOM3MfQiUIkqHErz3yRhxWykTiSj66a",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "static: Sacrum Note (Tabassum Maám)"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1TAjtg8sxh93q8ehMHcqZrRnHE9LJw7tt",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "static: [Head-Neck] Prof Viva Card Questions",
+        "db override: Head-Neck Prof Viva Card Questions"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1V2PKLb96RgdTvtK2cqocLfJNzbTvxy_9",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "static: Important structures of Brain"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1Wmk6JxDXSbVliYsLlCYOSm6zJ7r0AOBV",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "static: Cranial Nerve note (Sumaiya Maám)"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1Wz6vspesyB00rXzZJUBMGjdsiEcytHq7",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "db post: [Board-I] Anatomy Special Figure Analysis"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1cT3zfRc4eje60qVBw4HnPLSgkIiL3osi",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "db post: [1st Term]  Physiology (Prof Edition)"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1fIujDzEmo_WpZqk69zJlePskdTkbIkCa",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "static: Dissection of Head Neck"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1hVapqjnvBgFuexIwPHHs_kh2Wpsa2A_G",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "db post: [General Anatomy] Prof Viva Card Questions"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1j_Np4_dEtztzsTaxCWHPB5WWyYSrmZ4q",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "db post: [CNS & Eyeball]  Prof Viva Card Questions"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1k2vCD37dZDfhQ2aWrVDoWyKxd5wIAhCy",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "db post: [Suprex]  Prof Viva Card Questions"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1q-GMfSd5f6jXjdZd3DZYPrqc7oERupZ6",
+      "status": "OK",
+      "detail": "reachable",
+      "sources": [
+        "db post: Heart's Question Bank"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1qr9Mv-GdOMFRvhy1Jg6RGmgUEdz1aES-",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "db override: ABDOMEN Prof Viva Card Questions"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1sK7sV3DxKekiRLIG2aTM9P_frXzXxS3k",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "static: Arrangement of Hilum of lung"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1uo00Dpj-5_G8C_GlhKLaO-J3-rJpWlUi",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "static: Card-4 (Fundamental of Molecular Biology & Genetics)"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1vuqWpWKbdJ7I3KE0NorwK1R6BJG874kL",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "db post: [Histology]  Prof Viva Card Questions"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1yc0jpQb3Jgkkz9-Knj03VxVC_xad2GI-",
+      "status": "OK",
+      "detail": "file reachable",
+      "sources": [
+        "db post: [Special Figure] Anatomy Reading Guide"
+      ]
+    },
+    {
+      "url": "https://t.me/ahmedistiaq",
+      "status": "OK",
+      "detail": "page reachable (channel existence can't be fully verified)",
+      "sources": [
+        "static: (page)"
+      ]
+    },
+    {
+      "url": "https://t.me/bodrulshahriarmedical",
+      "status": "OK",
+      "detail": "page reachable (channel existence can't be fully verified)",
+      "sources": [
+        "static: Physiology Lecture Slides by Bodrul Shahriar"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139",
+      "status": "OK",
+      "detail": "page reachable (channel existence can't be fully verified)",
+      "sources": [
+        "static: (page)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/101",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Histotology & Embryology QB (1st Term)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/102?single",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Anatomy Question Bank (1st Term)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/103",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Biochemistry Question Bank(1st Term)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/104",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Physiology Question Bank(1st Term)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/105",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Physiology QB Item wise (Card-1)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/11",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Radius, Ulna, Muscles, Joints & Brachial plexus"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/12",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Clinical Anatomy (Bones, Nerves, Brachial plexus)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/121?single",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Histology slides (Part-1)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/122?single",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Histology slides (Part-2)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/123",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Male pelvis V/S Female Pelvis"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/124",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Hip Bone Structure"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/125",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Histology slides (Part-3)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/127",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Encyclopedia of Lining Epithelium"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/13",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Story of Upper Limb"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/133",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: VisceraX"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/135",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Physiology Question Bank(2nd Term)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/143",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Biochemistry Question Bank(2nd Term)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/156",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Story of Lower Limb"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/159",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Muscle classifications"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/165",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Card-1 (Biophysics & biomolecules)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/166",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Card-2 (Food, Nutrition & Vitamins)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/167",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Card-3 (Digestion, Absorption, Bioenergetics & Metabolism)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/168",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Card-4 (Renal Biochemistry, Body fluid, Electrolyte & Acid B"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/190",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Histology slides (Part-4)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/194",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Radiology (Head-Neck)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/199",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Snell's Clinical neuroanatomy (bth Ed)",
+        "db override: Snell's Clinical neuroanatomy (8th Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/204",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Broadman's Area of Brain"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/216",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: [THORAX] Prof Viva Card Questions"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/217",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: [ABDOMEN] Prof Viva Card Questions"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/30",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Gray's Anatomy (14th Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/31",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "db post: AK datta Thorax Abdomen"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/33",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: BD Chaurasia Head-Neck & Neuroanatomy(8th Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/34",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: BD Chaurasia Upper limb & Thorax (8th Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/35",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: BD Chaurasia Lower limb & Abdomen (8th Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/38",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Vishram Singh Head-Neck & Neuroanatomy (2nd Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/39",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Vishram Singh Lower Limb & Abdomen (2nd Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/41",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Vishram Singh Upper Limb & Thorax (2nd Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/49",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Ak datta General Anatomy (8th Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/50",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Vishram Singh General Anatomy (2nd Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/53",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Selim Reza Histology"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/54",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Chandona Histology (4th Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/55",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Junqueira's Basic Histology (14th Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/56",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Histology Identification Points",
+        "db override: Histology Identification Points"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/59",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Netter Atlas (8th Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/60?single",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Atlas of Anatomy-Thieme (2020)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/63",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Mannan's Regional Dissection & Surface anatomy (14 Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/66",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Vishram Singh Embryology"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/67",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Radiology for First Prof (Alif Farzan Zim)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/71",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Blueprint Biochemistry Volume-1"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/72",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Blueprint Biochemistry Volume-2"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/73",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Harper's Illustrated Biochemistry"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/78",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Guyton & Hall Textbook of Medical Physiology (15th Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/79",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Ganongs Review of Medical Physiology (26th Ed)"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/8",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Mediastinum illustration"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/80",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Arif physiology Volume-1"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/81",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Arif physiology Volume-2"
+      ]
+    },
+    {
+      "url": "https://t.me/medinote_139/9",
+      "status": "OK",
+      "detail": "post reachable",
+      "sources": [
+        "static: Development of Viscera (Thorax & diaphragms)"
+      ]
+    },
+    {
+      "url": "https://wa.me/8801919716394",
+      "status": "OK",
+      "detail": "HTTP 200",
+      "sources": [
+        "static: (page)"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/@AHMEDSPIXELS-t7w",
+      "status": "OK",
+      "detail": "HTTP 200",
+      "sources": [
+        "static: (page)"
+      ]
+    }
+  ]
+}

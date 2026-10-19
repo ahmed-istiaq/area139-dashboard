@@ -1,752 +1,1820 @@
 {
-  "generated_at": "2026-10-18T16:45:43+00:00",
+  "generated_at": "2026-10-19T08:16:20+00:00",
   "summary": {
     "BROKEN": 2,
     "WARN": 0,
     "SKIP": 0,
-    "OK": 90,
-    "total": 92
+    "OK": 74,
+    "total": 76
   },
-  "notes": [],
+  "notes": [
+    "Supabase read failed: SUPABASE_KEY (or SUPABASE_SERVICE_KEY for backups) is not set."
+  ],
   "results": [
     {
       "url": "https://www.facebook.com/share/1CaAhKz5Vb/",
       "status": "BROKEN",
       "detail": "HTTP 400",
+      "locations": [
+        {
+          "area": "Footer",
+          "section_id": null,
+          "card": null,
+          "label": "Facebook",
+          "origin": "Page",
+          "field": null,
+          "path": "Footer › Facebook",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Top of page",
+          "section_id": null,
+          "card": null,
+          "label": "Facebook",
+          "origin": "Page",
+          "field": null,
+          "path": "Top of page › Facebook",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Ahmed Istiaq",
+          "section_id": "login",
+          "card": null,
+          "label": "Facebook",
+          "origin": "Page",
+          "field": null,
+          "path": "Ahmed Istiaq › Facebook",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#login"
+        }
+      ],
       "sources": [
-        "static: (page)"
+        "Footer › Facebook",
+        "Top of page › Facebook",
+        "Ahmed Istiaq › Facebook"
       ]
     },
     {
       "url": "https://x.com/@AhmedIstiayj5r",
       "status": "BROKEN",
       "detail": "HTTP 404 not found",
+      "locations": [
+        {
+          "area": "Footer",
+          "section_id": null,
+          "card": null,
+          "label": "X",
+          "origin": "Page",
+          "field": null,
+          "path": "Footer › X",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Ahmed Istiaq",
+          "section_id": "login",
+          "card": null,
+          "label": "X",
+          "origin": "Page",
+          "field": null,
+          "path": "Ahmed Istiaq › X",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#login"
+        }
+      ],
       "sources": [
-        "static: (page)"
+        "Footer › X",
+        "Ahmed Istiaq › X"
       ]
     },
     {
       "url": "https://ahmed-istiaq.github.io/",
       "status": "OK",
       "detail": "HTTP 200",
+      "locations": [
+        {
+          "area": "Top of page",
+          "section_id": null,
+          "card": null,
+          "label": "Ahmed Istiaq",
+          "origin": "Page",
+          "field": null,
+          "path": "Top of page › Ahmed Istiaq",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Navigation menu",
+          "section_id": null,
+          "card": null,
+          "label": "Overview",
+          "origin": "Page",
+          "field": null,
+          "path": "Navigation menu › Overview",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        }
+      ],
       "sources": [
-        "static: (page)"
+        "Top of page › Ahmed Istiaq",
+        "Navigation menu › Overview"
       ]
     },
     {
       "url": "https://ahmed-istiaq.github.io/ahmeds_portfolio/",
       "status": "OK",
       "detail": "HTTP 200",
+      "locations": [
+        {
+          "area": "Top of page",
+          "section_id": null,
+          "card": null,
+          "label": "Portfolio",
+          "origin": "Page",
+          "field": null,
+          "path": "Top of page › Portfolio",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Page header",
+          "section_id": null,
+          "card": null,
+          "label": "Ahmed Istiaq ✓ RpMC-54 · SYSTEMS",
+          "origin": "Page",
+          "field": null,
+          "path": "Page header › Ahmed Istiaq ✓ RpMC-54 · SYSTEMS",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Navigation menu",
+          "section_id": null,
+          "card": null,
+          "label": "Identity Matrix",
+          "origin": "Page",
+          "field": null,
+          "path": "Navigation menu › Identity Matrix",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Navigation menu",
+          "section_id": null,
+          "card": null,
+          "label": "Visual Diary",
+          "origin": "Page",
+          "field": null,
+          "path": "Navigation menu › Visual Diary",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Page header",
+          "section_id": null,
+          "card": null,
+          "label": "Portfolio",
+          "origin": "Page",
+          "field": null,
+          "path": "Page header › Portfolio",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Top of page",
+          "section_id": null,
+          "card": null,
+          "label": "Ahmed Istiaq Portfolio",
+          "origin": "Page",
+          "field": null,
+          "path": "Top of page › Ahmed Istiaq Portfolio",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Footer",
+          "section_id": null,
+          "card": null,
+          "label": "Overview & Bio",
+          "origin": "Page",
+          "field": null,
+          "path": "Footer › Overview & Bio",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Footer",
+          "section_id": null,
+          "card": null,
+          "label": "Identity Matrix",
+          "origin": "Page",
+          "field": null,
+          "path": "Footer › Identity Matrix",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Footer",
+          "section_id": null,
+          "card": null,
+          "label": "Visual Diary & Photos",
+          "origin": "Page",
+          "field": null,
+          "path": "Footer › Visual Diary & Photos",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Ahmed Istiaq",
+          "section_id": "login",
+          "card": null,
+          "label": "Portfolio",
+          "origin": "Page",
+          "field": null,
+          "path": "Ahmed Istiaq › Portfolio",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#login"
+        }
+      ],
       "sources": [
-        "static: (page)"
+        "Top of page › Portfolio",
+        "Page header › Ahmed Istiaq ✓ RpMC-54 · SYSTEMS",
+        "Navigation menu › Identity Matrix",
+        "Navigation menu › Visual Diary",
+        "Page header › Portfolio",
+        "Top of page › Ahmed Istiaq Portfolio",
+        "Footer › Overview & Bio",
+        "Footer › Identity Matrix",
+        "Footer › Visual Diary & Photos",
+        "Ahmed Istiaq › Portfolio"
       ]
     },
     {
       "url": "https://drive.google.com/drive/folders/1b1ixcCMX2SOGpvyt_wX4EgVL51O6VvuG",
       "status": "OK",
       "detail": "reachable",
+      "locations": [
+        {
+          "area": "Question Bank",
+          "section_id": "section-QB",
+          "card": "RMU 1st Prof Written Question Bank",
+          "label": "Download Here",
+          "origin": "Page",
+          "field": null,
+          "path": "Question Bank › RMU 1st Prof Written Question Bank › Download Here",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-QB"
+        }
+      ],
       "sources": [
-        "static: RMU 1st Prof Written Question Bank",
-        "db override: RMU 1st Prof Written Question Bank"
-      ]
-    },
-    {
-      "url": "https://drive.google.com/uc?export=download&id=12OR1ab0AGLp7BqkC3Hq8NRHRUWBvj-44",
-      "status": "OK",
-      "detail": "file reachable",
-      "sources": [
-        "db post: [Infrex]  Prof Viva Card Questions"
+        "Question Bank › RMU 1st Prof Written Question Bank › Download Here"
       ]
     },
     {
       "url": "https://drive.google.com/uc?export=download&id=17LhqQhDeGiiOBjCdEQYCW1Asm8TJsRCK",
       "status": "OK",
       "detail": "file reachable",
+      "locations": [
+        {
+          "area": "Biochemistry",
+          "section_id": "section-biochemistry",
+          "card": "Card-4 (Clinical Biochemistry & Endocrinology)",
+          "label": "Downnload Here",
+          "origin": "Page",
+          "field": null,
+          "path": "Biochemistry › Card-4 (Clinical Biochemistry & Endocrinology) › Downnload Here",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-biochemistry"
+        }
+      ],
       "sources": [
-        "static: Card-4 (Clinical Biochemistry & Endocrinology)"
-      ]
-    },
-    {
-      "url": "https://drive.google.com/uc?export=download&id=1DEOzd000mcojoCS6NjKNEidxIsHyStA3",
-      "status": "OK",
-      "detail": "file reachable",
-      "sources": [
-        "db override: THORAX Prof Viva Card Questions"
-      ]
-    },
-    {
-      "url": "https://drive.google.com/uc?export=download&id=1HSbRliuiOFDQPzSHHWunm2XbKbqpBRYM",
-      "status": "OK",
-      "detail": "file reachable",
-      "sources": [
-        "db post: [2nd Term]  Physiology (Prof Edition)"
+        "Biochemistry › Card-4 (Clinical Biochemistry & Endocrinology) › Downnload Here"
       ]
     },
     {
       "url": "https://drive.google.com/uc?export=download&id=1Jr5FXGFPbNrQbRzdpAQM1ScnECqtXPj5",
       "status": "OK",
       "detail": "file reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Topics of Suprex",
+          "label": "Download here",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Topics of Suprex › Download here",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Topics of Suprex"
-      ]
-    },
-    {
-      "url": "https://drive.google.com/uc?export=download&id=1MNrMh49YlAoj9n_R9qwu53_f0fbr1kjp",
-      "status": "OK",
-      "detail": "file reachable",
-      "sources": [
-        "db post: [3rd Term]  Physiology  (Prof Edition)"
+        "Anatomy › Topics of Suprex › Download here"
       ]
     },
     {
       "url": "https://drive.google.com/uc?export=download&id=1N978QWMbkqOY6NCpZhGkbd7PzFa80YRl",
       "status": "OK",
       "detail": "reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Langman Medical Embryology (13th Ed)",
+          "label": "Download Here",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Langman Medical Embryology (13th Ed) › Download Here",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Langman Medical Embryology (13th Ed)"
-      ]
-    },
-    {
-      "url": "https://drive.google.com/uc?export=download&id=1P8uzQoZ9iPhXRZfbtWztb9Z9R6TlWULx",
-      "status": "OK",
-      "detail": "file reachable",
-      "sources": [
-        "db post: [Board-II] Anatomy Special Figure Analysis"
-      ]
-    },
-    {
-      "url": "https://drive.google.com/uc?export=download&id=1Q4usohj8sueUVli9xIj2nWWEsDosssoi",
-      "status": "OK",
-      "detail": "file reachable",
-      "sources": [
-        "db post: [Embryology]  Prof Viva Card Questions"
+        "MBBS Textbooks & Clinical Atlases › Langman Medical Embryology (13th Ed) › Download Here"
       ]
     },
     {
       "url": "https://drive.google.com/uc?export=download&id=1QjOM3MfQiUIkqHErz3yRhxWykTiSj66a",
       "status": "OK",
       "detail": "file reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Sacrum Note (Tabassum Maám)",
+          "label": "Download Here",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Sacrum Note (Tabassum Maám) › Download Here",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Sacrum Note (Tabassum Maám)"
+        "Anatomy › Sacrum Note (Tabassum Maám) › Download Here"
       ]
     },
     {
       "url": "https://drive.google.com/uc?export=download&id=1TAjtg8sxh93q8ehMHcqZrRnHE9LJw7tt",
       "status": "OK",
       "detail": "file reachable",
+      "locations": [
+        {
+          "area": "Question Bank",
+          "section_id": "section-QB",
+          "card": "[Head-Neck] Prof Viva Card Questions",
+          "label": "Download Here",
+          "origin": "Page",
+          "field": null,
+          "path": "Question Bank › [Head-Neck] Prof Viva Card Questions › Download Here",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-QB"
+        }
+      ],
       "sources": [
-        "static: [Head-Neck] Prof Viva Card Questions",
-        "db override: Head-Neck Prof Viva Card Questions"
+        "Question Bank › [Head-Neck] Prof Viva Card Questions › Download Here"
       ]
     },
     {
       "url": "https://drive.google.com/uc?export=download&id=1V2PKLb96RgdTvtK2cqocLfJNzbTvxy_9",
       "status": "OK",
       "detail": "file reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Important structures of Brain",
+          "label": "Download Here",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Important structures of Brain › Download Here",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Important structures of Brain"
+        "Anatomy › Important structures of Brain › Download Here"
       ]
     },
     {
       "url": "https://drive.google.com/uc?export=download&id=1Wmk6JxDXSbVliYsLlCYOSm6zJ7r0AOBV",
       "status": "OK",
       "detail": "file reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Cranial Nerve note (Sumaiya Maám)",
+          "label": "Download Here",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Cranial Nerve note (Sumaiya Maám) › Download Here",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Cranial Nerve note (Sumaiya Maám)"
-      ]
-    },
-    {
-      "url": "https://drive.google.com/uc?export=download&id=1Wz6vspesyB00rXzZJUBMGjdsiEcytHq7",
-      "status": "OK",
-      "detail": "file reachable",
-      "sources": [
-        "db post: [Board-I] Anatomy Special Figure Analysis"
-      ]
-    },
-    {
-      "url": "https://drive.google.com/uc?export=download&id=1cT3zfRc4eje60qVBw4HnPLSgkIiL3osi",
-      "status": "OK",
-      "detail": "file reachable",
-      "sources": [
-        "db post: [1st Term]  Physiology (Prof Edition)"
+        "Anatomy › Cranial Nerve note (Sumaiya Maám) › Download Here"
       ]
     },
     {
       "url": "https://drive.google.com/uc?export=download&id=1fIujDzEmo_WpZqk69zJlePskdTkbIkCa",
       "status": "OK",
       "detail": "file reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Dissection of Head Neck",
+          "label": "Download Here",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Dissection of Head Neck › Download Here",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Dissection of Head Neck"
-      ]
-    },
-    {
-      "url": "https://drive.google.com/uc?export=download&id=1hVapqjnvBgFuexIwPHHs_kh2Wpsa2A_G",
-      "status": "OK",
-      "detail": "file reachable",
-      "sources": [
-        "db post: [General Anatomy] Prof Viva Card Questions"
-      ]
-    },
-    {
-      "url": "https://drive.google.com/uc?export=download&id=1j_Np4_dEtztzsTaxCWHPB5WWyYSrmZ4q",
-      "status": "OK",
-      "detail": "file reachable",
-      "sources": [
-        "db post: [CNS & Eyeball]  Prof Viva Card Questions"
-      ]
-    },
-    {
-      "url": "https://drive.google.com/uc?export=download&id=1k2vCD37dZDfhQ2aWrVDoWyKxd5wIAhCy",
-      "status": "OK",
-      "detail": "file reachable",
-      "sources": [
-        "db post: [Suprex]  Prof Viva Card Questions"
-      ]
-    },
-    {
-      "url": "https://drive.google.com/uc?export=download&id=1q-GMfSd5f6jXjdZd3DZYPrqc7oERupZ6",
-      "status": "OK",
-      "detail": "reachable",
-      "sources": [
-        "db post: Heart's Question Bank"
-      ]
-    },
-    {
-      "url": "https://drive.google.com/uc?export=download&id=1qr9Mv-GdOMFRvhy1Jg6RGmgUEdz1aES-",
-      "status": "OK",
-      "detail": "file reachable",
-      "sources": [
-        "db override: ABDOMEN Prof Viva Card Questions"
+        "Anatomy › Dissection of Head Neck › Download Here"
       ]
     },
     {
       "url": "https://drive.google.com/uc?export=download&id=1sK7sV3DxKekiRLIG2aTM9P_frXzXxS3k",
       "status": "OK",
       "detail": "file reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Arrangement of Hilum of lung",
+          "label": "Download here",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Arrangement of Hilum of lung › Download here",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Arrangement of Hilum of lung"
+        "Anatomy › Arrangement of Hilum of lung › Download here"
       ]
     },
     {
       "url": "https://drive.google.com/uc?export=download&id=1uo00Dpj-5_G8C_GlhKLaO-J3-rJpWlUi",
       "status": "OK",
       "detail": "file reachable",
+      "locations": [
+        {
+          "area": "Biochemistry",
+          "section_id": "section-biochemistry",
+          "card": "Card-4 (Fundamental of Molecular Biology & Genetics)",
+          "label": "Downnload Here",
+          "origin": "Page",
+          "field": null,
+          "path": "Biochemistry › Card-4 (Fundamental of Molecular Biology & Genetics) › Downnload Here",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-biochemistry"
+        }
+      ],
       "sources": [
-        "static: Card-4 (Fundamental of Molecular Biology & Genetics)"
-      ]
-    },
-    {
-      "url": "https://drive.google.com/uc?export=download&id=1vuqWpWKbdJ7I3KE0NorwK1R6BJG874kL",
-      "status": "OK",
-      "detail": "file reachable",
-      "sources": [
-        "db post: [Histology]  Prof Viva Card Questions"
-      ]
-    },
-    {
-      "url": "https://drive.google.com/uc?export=download&id=1yc0jpQb3Jgkkz9-Knj03VxVC_xad2GI-",
-      "status": "OK",
-      "detail": "file reachable",
-      "sources": [
-        "db post: [Special Figure] Anatomy Reading Guide"
+        "Biochemistry › Card-4 (Fundamental of Molecular Biology & Genetics) › Downnload Here"
       ]
     },
     {
       "url": "https://t.me/ahmedistiaq",
       "status": "OK",
       "detail": "page reachable (channel existence can't be fully verified)",
+      "locations": [
+        {
+          "area": "Footer",
+          "section_id": null,
+          "card": null,
+          "label": "Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Footer › Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        }
+      ],
       "sources": [
-        "static: (page)"
+        "Footer › Telegram"
       ]
     },
     {
       "url": "https://t.me/bodrulshahriarmedical",
       "status": "OK",
       "detail": "page reachable (channel existence can't be fully verified)",
+      "locations": [
+        {
+          "area": "Physiology",
+          "section_id": "section-physiology",
+          "card": "Physiology Lecture Slides by Bodrul Shahriar",
+          "label": "Open in telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Physiology › Physiology Lecture Slides by Bodrul Shahriar › Open in telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-physiology"
+        }
+      ],
       "sources": [
-        "static: Physiology Lecture Slides by Bodrul Shahriar"
+        "Physiology › Physiology Lecture Slides by Bodrul Shahriar › Open in telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139",
       "status": "OK",
       "detail": "page reachable (channel existence can't be fully verified)",
+      "locations": [
+        {
+          "area": "Top of page",
+          "section_id": null,
+          "card": null,
+          "label": "MediNote on Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Top of page › MediNote on Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Page header",
+          "section_id": null,
+          "card": null,
+          "label": "@AREA_139",
+          "origin": "Page",
+          "field": null,
+          "path": "Page header › @AREA_139",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Page header",
+          "section_id": null,
+          "card": null,
+          "label": "Join on Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Page header › Join on Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Area 139 — MediNote: Curated Medical Archive & Clinical Syntheses",
+          "section_id": null,
+          "card": null,
+          "label": "View Channel",
+          "origin": "Page",
+          "field": null,
+          "path": "Area 139 — MediNote: Curated Medical Archive & Clinical Syntheses › View Channel",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Study Smarter - Remember more",
+          "section_id": null,
+          "card": null,
+          "label": "Join @AREA_139",
+          "origin": "Page",
+          "field": null,
+          "path": "Study Smarter - Remember more › Join @AREA_139",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Top of page",
+          "section_id": null,
+          "card": null,
+          "label": "Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Top of page › Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Top of page",
+          "section_id": null,
+          "card": null,
+          "label": "@AREA_139",
+          "origin": "Page",
+          "field": null,
+          "path": "Top of page › @AREA_139",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "MediNote: Curated Medical Archive & Clinical Syntheses",
+          "section_id": null,
+          "card": null,
+          "label": "Join Channel",
+          "origin": "Page",
+          "field": null,
+          "path": "MediNote: Curated Medical Archive & Clinical Syntheses › Join Channel",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "MediNote: Curated Medical Archive & Clinical Syntheses",
+          "section_id": null,
+          "card": null,
+          "label": "View Channel",
+          "origin": "Page",
+          "field": null,
+          "path": "MediNote: Curated Medical Archive & Clinical Syntheses › View Channel",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Ahmed Istiaq",
+          "section_id": "login",
+          "card": null,
+          "label": "Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Ahmed Istiaq › Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#login"
+        }
+      ],
       "sources": [
-        "static: (page)"
+        "Top of page › MediNote on Telegram",
+        "Page header › @AREA_139",
+        "Page header › Join on Telegram",
+        "Area 139 — MediNote: Curated Medical Archive & Clinical Syntheses › View Channel",
+        "Study Smarter - Remember more › Join @AREA_139",
+        "Top of page › Telegram",
+        "Top of page › @AREA_139",
+        "MediNote: Curated Medical Archive & Clinical Syntheses › Join Channel",
+        "MediNote: Curated Medical Archive & Clinical Syntheses › View Channel",
+        "Ahmed Istiaq › Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/101",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Question Bank",
+          "section_id": "section-QB",
+          "card": "Histotology & Embryology QB (1st Term)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Question Bank › Histotology & Embryology QB (1st Term) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-QB"
+        }
+      ],
       "sources": [
-        "static: Histotology & Embryology QB (1st Term)"
+        "Question Bank › Histotology & Embryology QB (1st Term) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/102?single",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Question Bank",
+          "section_id": "section-QB",
+          "card": "Anatomy Question Bank (1st Term)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Question Bank › Anatomy Question Bank (1st Term) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-QB"
+        }
+      ],
       "sources": [
-        "static: Anatomy Question Bank (1st Term)"
+        "Question Bank › Anatomy Question Bank (1st Term) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/103",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Question Bank",
+          "section_id": "section-QB",
+          "card": "Biochemistry Question Bank(1st Term)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Question Bank › Biochemistry Question Bank(1st Term) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-QB"
+        }
+      ],
       "sources": [
-        "static: Biochemistry Question Bank(1st Term)"
+        "Question Bank › Biochemistry Question Bank(1st Term) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/104",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Question Bank",
+          "section_id": "section-QB",
+          "card": "Physiology Question Bank(1st Term)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Question Bank › Physiology Question Bank(1st Term) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-QB"
+        }
+      ],
       "sources": [
-        "static: Physiology Question Bank(1st Term)"
+        "Question Bank › Physiology Question Bank(1st Term) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/105",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Question Bank",
+          "section_id": "section-QB",
+          "card": "Physiology QB Item wise (Card-1)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Question Bank › Physiology QB Item wise (Card-1) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-QB"
+        }
+      ],
       "sources": [
-        "static: Physiology QB Item wise (Card-1)"
+        "Question Bank › Physiology QB Item wise (Card-1) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/11",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Radius, Ulna, Muscles, Joints & Brachial plexus",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Radius, Ulna, Muscles, Joints & Brachial plexus › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Radius, Ulna, Muscles, Joints & Brachial plexus"
+        "Anatomy › Radius, Ulna, Muscles, Joints & Brachial plexus › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/12",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Clinical Anatomy (Bones, Nerves, Brachial plexus)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Clinical Anatomy (Bones, Nerves, Brachial plexus) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Clinical Anatomy (Bones, Nerves, Brachial plexus)"
+        "Anatomy › Clinical Anatomy (Bones, Nerves, Brachial plexus) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/121?single",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Histology & Radiology",
+          "section_id": "section-histo",
+          "card": "Histology slides (Part-1)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Histology & Radiology › Histology slides (Part-1) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-histo"
+        }
+      ],
       "sources": [
-        "static: Histology slides (Part-1)"
+        "Histology & Radiology › Histology slides (Part-1) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/122?single",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Histology & Radiology",
+          "section_id": "section-histo",
+          "card": "Histology slides (Part-2)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Histology & Radiology › Histology slides (Part-2) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-histo"
+        }
+      ],
       "sources": [
-        "static: Histology slides (Part-2)"
+        "Histology & Radiology › Histology slides (Part-2) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/123",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Male pelvis V/S Female Pelvis",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Male pelvis V/S Female Pelvis › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Male pelvis V/S Female Pelvis"
+        "Anatomy › Male pelvis V/S Female Pelvis › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/124",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Hip Bone Structure",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Hip Bone Structure › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Hip Bone Structure"
+        "Anatomy › Hip Bone Structure › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/125",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Histology & Radiology",
+          "section_id": "section-histo",
+          "card": "Histology slides (Part-3)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Histology & Radiology › Histology slides (Part-3) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-histo"
+        }
+      ],
       "sources": [
-        "static: Histology slides (Part-3)"
+        "Histology & Radiology › Histology slides (Part-3) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/127",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Histology & Radiology",
+          "section_id": "section-histo",
+          "card": "Encyclopedia of Lining Epithelium",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Histology & Radiology › Encyclopedia of Lining Epithelium › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-histo"
+        }
+      ],
       "sources": [
-        "static: Encyclopedia of Lining Epithelium"
+        "Histology & Radiology › Encyclopedia of Lining Epithelium › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/13",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Story of Upper Limb",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Story of Upper Limb › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Story of Upper Limb"
+        "Anatomy › Story of Upper Limb › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/133",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "VisceraX",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › VisceraX › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: VisceraX"
+        "Anatomy › VisceraX › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/135",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Question Bank",
+          "section_id": "section-QB",
+          "card": "Physiology Question Bank(2nd Term)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Question Bank › Physiology Question Bank(2nd Term) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-QB"
+        }
+      ],
       "sources": [
-        "static: Physiology Question Bank(2nd Term)"
+        "Question Bank › Physiology Question Bank(2nd Term) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/143",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Question Bank",
+          "section_id": "section-QB",
+          "card": "Biochemistry Question Bank(2nd Term)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Question Bank › Biochemistry Question Bank(2nd Term) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-QB"
+        }
+      ],
       "sources": [
-        "static: Biochemistry Question Bank(2nd Term)"
+        "Question Bank › Biochemistry Question Bank(2nd Term) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/156",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Story of Lower Limb",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Story of Lower Limb › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Story of Lower Limb"
+        "Anatomy › Story of Lower Limb › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/159",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Muscle classifications",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Muscle classifications › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Muscle classifications"
+        "Anatomy › Muscle classifications › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/165",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Biochemistry",
+          "section_id": "section-biochemistry",
+          "card": "Card-1 (Biophysics & biomolecules)",
+          "label": "Open in telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Biochemistry › Card-1 (Biophysics & biomolecules) › Open in telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-biochemistry"
+        }
+      ],
       "sources": [
-        "static: Card-1 (Biophysics & biomolecules)"
+        "Biochemistry › Card-1 (Biophysics & biomolecules) › Open in telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/166",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Biochemistry",
+          "section_id": "section-biochemistry",
+          "card": "Card-2 (Food, Nutrition & Vitamins)",
+          "label": "Open in telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Biochemistry › Card-2 (Food, Nutrition & Vitamins) › Open in telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-biochemistry"
+        }
+      ],
       "sources": [
-        "static: Card-2 (Food, Nutrition & Vitamins)"
+        "Biochemistry › Card-2 (Food, Nutrition & Vitamins) › Open in telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/167",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Biochemistry",
+          "section_id": "section-biochemistry",
+          "card": "Card-3 (Digestion, Absorption, Bioenergetics & Metabolism)",
+          "label": "Open in telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Biochemistry › Card-3 (Digestion, Absorption, Bioenergetics & Metabolism) › Open in telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-biochemistry"
+        }
+      ],
       "sources": [
-        "static: Card-3 (Digestion, Absorption, Bioenergetics & Metabolism)"
+        "Biochemistry › Card-3 (Digestion, Absorption, Bioenergetics & Metabolism) › Open in telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/168",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Biochemistry",
+          "section_id": "section-biochemistry",
+          "card": "Card-4 (Renal Biochemistry, Body fluid, Electrolyte & Acid Base Balance)",
+          "label": "Open in telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Biochemistry › Card-4 (Renal Biochemistry, Body fluid, Electrolyte & Acid Base Balance) › Open in telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-biochemistry"
+        }
+      ],
       "sources": [
-        "static: Card-4 (Renal Biochemistry, Body fluid, Electrolyte & Acid B"
+        "Biochemistry › Card-4 (Renal Biochemistry, Body fluid, Electrolyte & Acid Base Balance) › Open in telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/190",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Histology & Radiology",
+          "section_id": "section-histo",
+          "card": "Histology slides (Part-4)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Histology & Radiology › Histology slides (Part-4) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-histo"
+        }
+      ],
       "sources": [
-        "static: Histology slides (Part-4)"
+        "Histology & Radiology › Histology slides (Part-4) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/194",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Histology & Radiology",
+          "section_id": "section-histo",
+          "card": "Radiology (Head-Neck)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Histology & Radiology › Radiology (Head-Neck) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-histo"
+        }
+      ],
       "sources": [
-        "static: Radiology (Head-Neck)"
+        "Histology & Radiology › Radiology (Head-Neck) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/199",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Snell's Clinical neuroanatomy (bth Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Snell's Clinical neuroanatomy (bth Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Snell's Clinical neuroanatomy (bth Ed)",
-        "db override: Snell's Clinical neuroanatomy (8th Ed)"
+        "MBBS Textbooks & Clinical Atlases › Snell's Clinical neuroanatomy (bth Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/204",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Broadman's Area of Brain",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Broadman's Area of Brain › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Broadman's Area of Brain"
+        "Anatomy › Broadman's Area of Brain › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/216",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Question Bank",
+          "section_id": "section-QB",
+          "card": "[THORAX] Prof Viva Card Questions",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Question Bank › [THORAX] Prof Viva Card Questions › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-QB"
+        }
+      ],
       "sources": [
-        "static: [THORAX] Prof Viva Card Questions"
+        "Question Bank › [THORAX] Prof Viva Card Questions › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/217",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Question Bank",
+          "section_id": "section-QB",
+          "card": "[ABDOMEN] Prof Viva Card Questions",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Question Bank › [ABDOMEN] Prof Viva Card Questions › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-QB"
+        }
+      ],
       "sources": [
-        "static: [ABDOMEN] Prof Viva Card Questions"
+        "Question Bank › [ABDOMEN] Prof Viva Card Questions › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/30",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Gray's Anatomy (14th Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Gray's Anatomy (14th Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Gray's Anatomy (14th Ed)"
-      ]
-    },
-    {
-      "url": "https://t.me/medinote_139/31",
-      "status": "OK",
-      "detail": "post reachable",
-      "sources": [
-        "db post: AK datta Thorax Abdomen"
+        "MBBS Textbooks & Clinical Atlases › Gray's Anatomy (14th Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/33",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "BD Chaurasia Head-Neck & Neuroanatomy(8th Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › BD Chaurasia Head-Neck & Neuroanatomy(8th Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: BD Chaurasia Head-Neck & Neuroanatomy(8th Ed)"
+        "MBBS Textbooks & Clinical Atlases › BD Chaurasia Head-Neck & Neuroanatomy(8th Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/34",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "BD Chaurasia Upper limb & Thorax (8th Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › BD Chaurasia Upper limb & Thorax (8th Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: BD Chaurasia Upper limb & Thorax (8th Ed)"
+        "MBBS Textbooks & Clinical Atlases › BD Chaurasia Upper limb & Thorax (8th Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/35",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "BD Chaurasia Lower limb & Abdomen (8th Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › BD Chaurasia Lower limb & Abdomen (8th Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: BD Chaurasia Lower limb & Abdomen (8th Ed)"
+        "MBBS Textbooks & Clinical Atlases › BD Chaurasia Lower limb & Abdomen (8th Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/38",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Vishram Singh Head-Neck & Neuroanatomy (2nd Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Vishram Singh Head-Neck & Neuroanatomy (2nd Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Vishram Singh Head-Neck & Neuroanatomy (2nd Ed)"
+        "MBBS Textbooks & Clinical Atlases › Vishram Singh Head-Neck & Neuroanatomy (2nd Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/39",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Vishram Singh Lower Limb & Abdomen (2nd Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Vishram Singh Lower Limb & Abdomen (2nd Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Vishram Singh Lower Limb & Abdomen (2nd Ed)"
+        "MBBS Textbooks & Clinical Atlases › Vishram Singh Lower Limb & Abdomen (2nd Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/41",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Vishram Singh Upper Limb & Thorax (2nd Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Vishram Singh Upper Limb & Thorax (2nd Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Vishram Singh Upper Limb & Thorax (2nd Ed)"
+        "MBBS Textbooks & Clinical Atlases › Vishram Singh Upper Limb & Thorax (2nd Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/49",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Ak datta General Anatomy (8th Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Ak datta General Anatomy (8th Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Ak datta General Anatomy (8th Ed)"
+        "MBBS Textbooks & Clinical Atlases › Ak datta General Anatomy (8th Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/50",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Vishram Singh General Anatomy (2nd Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Vishram Singh General Anatomy (2nd Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Vishram Singh General Anatomy (2nd Ed)"
+        "MBBS Textbooks & Clinical Atlases › Vishram Singh General Anatomy (2nd Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/53",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Selim Reza Histology",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Selim Reza Histology › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Selim Reza Histology"
+        "MBBS Textbooks & Clinical Atlases › Selim Reza Histology › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/54",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Chandona Histology (4th Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Chandona Histology (4th Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Chandona Histology (4th Ed)"
+        "MBBS Textbooks & Clinical Atlases › Chandona Histology (4th Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/55",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Junqueira's Basic Histology (14th Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Junqueira's Basic Histology (14th Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Junqueira's Basic Histology (14th Ed)"
+        "MBBS Textbooks & Clinical Atlases › Junqueira's Basic Histology (14th Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/56",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Histology & Radiology",
+          "section_id": "section-histo",
+          "card": "Histology Identification Points",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Histology & Radiology › Histology Identification Points › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-histo"
+        }
+      ],
       "sources": [
-        "static: Histology Identification Points",
-        "db override: Histology Identification Points"
+        "Histology & Radiology › Histology Identification Points › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/59",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Netter Atlas (8th Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Netter Atlas (8th Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Netter Atlas (8th Ed)"
+        "MBBS Textbooks & Clinical Atlases › Netter Atlas (8th Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/60?single",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Atlas of Anatomy-Thieme (2020)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Atlas of Anatomy-Thieme (2020) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Atlas of Anatomy-Thieme (2020)"
+        "MBBS Textbooks & Clinical Atlases › Atlas of Anatomy-Thieme (2020) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/63",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Mannan's Regional Dissection & Surface anatomy (14 Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Mannan's Regional Dissection & Surface anatomy (14 Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Mannan's Regional Dissection & Surface anatomy (14 Ed)"
+        "MBBS Textbooks & Clinical Atlases › Mannan's Regional Dissection & Surface anatomy (14 Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/66",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Vishram Singh Embryology",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Vishram Singh Embryology › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Vishram Singh Embryology"
+        "MBBS Textbooks & Clinical Atlases › Vishram Singh Embryology › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/67",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Histology & Radiology",
+          "section_id": "section-histo",
+          "card": "Radiology for First Prof (Alif Farzan Zim)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Histology & Radiology › Radiology for First Prof (Alif Farzan Zim) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-histo"
+        }
+      ],
       "sources": [
-        "static: Radiology for First Prof (Alif Farzan Zim)"
+        "Histology & Radiology › Radiology for First Prof (Alif Farzan Zim) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/71",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Biochemistry",
+          "section_id": "section-biochemistry",
+          "card": "Blueprint Biochemistry Volume-1",
+          "label": "Open in telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Biochemistry › Blueprint Biochemistry Volume-1 › Open in telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-biochemistry"
+        }
+      ],
       "sources": [
-        "static: Blueprint Biochemistry Volume-1"
+        "Biochemistry › Blueprint Biochemistry Volume-1 › Open in telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/72",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Biochemistry",
+          "section_id": "section-biochemistry",
+          "card": "Blueprint Biochemistry Volume-2",
+          "label": "Open in telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Biochemistry › Blueprint Biochemistry Volume-2 › Open in telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-biochemistry"
+        }
+      ],
       "sources": [
-        "static: Blueprint Biochemistry Volume-2"
+        "Biochemistry › Blueprint Biochemistry Volume-2 › Open in telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/73",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Harper's Illustrated Biochemistry",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Harper's Illustrated Biochemistry › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Harper's Illustrated Biochemistry"
+        "MBBS Textbooks & Clinical Atlases › Harper's Illustrated Biochemistry › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/78",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Guyton & Hall Textbook of Medical Physiology (15th Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Guyton & Hall Textbook of Medical Physiology (15th Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Guyton & Hall Textbook of Medical Physiology (15th Ed)"
+        "MBBS Textbooks & Clinical Atlases › Guyton & Hall Textbook of Medical Physiology (15th Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/79",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "MBBS Textbooks & Clinical Atlases",
+          "section_id": "section-mbbs-books",
+          "card": "Ganongs Review of Medical Physiology (26th Ed)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "MBBS Textbooks & Clinical Atlases › Ganongs Review of Medical Physiology (26th Ed) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-mbbs-books"
+        }
+      ],
       "sources": [
-        "static: Ganongs Review of Medical Physiology (26th Ed)"
+        "MBBS Textbooks & Clinical Atlases › Ganongs Review of Medical Physiology (26th Ed) › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/8",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Mediastinum illustration",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Mediastinum illustration › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Mediastinum illustration"
+        "Anatomy › Mediastinum illustration › Open in Telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/80",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Physiology",
+          "section_id": "section-physiology",
+          "card": "Arif physiology Volume-1",
+          "label": "Open in telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Physiology › Arif physiology Volume-1 › Open in telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-physiology"
+        }
+      ],
       "sources": [
-        "static: Arif physiology Volume-1"
+        "Physiology › Arif physiology Volume-1 › Open in telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/81",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Physiology",
+          "section_id": "section-physiology",
+          "card": "Arif physiology Volume-2",
+          "label": "Open in telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Physiology › Arif physiology Volume-2 › Open in telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-physiology"
+        }
+      ],
       "sources": [
-        "static: Arif physiology Volume-2"
+        "Physiology › Arif physiology Volume-2 › Open in telegram"
       ]
     },
     {
       "url": "https://t.me/medinote_139/9",
       "status": "OK",
       "detail": "post reachable",
+      "locations": [
+        {
+          "area": "Anatomy",
+          "section_id": "section-anatomy",
+          "card": "Development of Viscera (Thorax & diaphragms)",
+          "label": "Open in Telegram",
+          "origin": "Page",
+          "field": null,
+          "path": "Anatomy › Development of Viscera (Thorax & diaphragms) › Open in Telegram",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#section-anatomy"
+        }
+      ],
       "sources": [
-        "static: Development of Viscera (Thorax & diaphragms)"
+        "Anatomy › Development of Viscera (Thorax & diaphragms) › Open in Telegram"
       ]
     },
     {
       "url": "https://wa.me/8801919716394",
       "status": "OK",
       "detail": "HTTP 200",
+      "locations": [
+        {
+          "area": "Footer",
+          "section_id": null,
+          "card": null,
+          "label": "WhatsApp",
+          "origin": "Page",
+          "field": null,
+          "path": "Footer › WhatsApp",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Top of page",
+          "section_id": null,
+          "card": null,
+          "label": "WhatsApp",
+          "origin": "Page",
+          "field": null,
+          "path": "Top of page › WhatsApp",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Ahmed Istiaq",
+          "section_id": "login",
+          "card": null,
+          "label": "WhatsApp",
+          "origin": "Page",
+          "field": null,
+          "path": "Ahmed Istiaq › WhatsApp",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#login"
+        }
+      ],
       "sources": [
-        "static: (page)"
+        "Footer › WhatsApp",
+        "Top of page › WhatsApp",
+        "Ahmed Istiaq › WhatsApp"
       ]
     },
     {
       "url": "https://www.youtube.com/@AHMEDSPIXELS-t7w",
       "status": "OK",
       "detail": "HTTP 200",
+      "locations": [
+        {
+          "area": "Footer",
+          "section_id": null,
+          "card": null,
+          "label": "YouTube",
+          "origin": "Page",
+          "field": null,
+          "path": "Footer › YouTube",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Top of page",
+          "section_id": null,
+          "card": null,
+          "label": "YouTube",
+          "origin": "Page",
+          "field": null,
+          "path": "Top of page › YouTube",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Ahmed Istiaq",
+          "section_id": "login",
+          "card": null,
+          "label": "YouTube",
+          "origin": "Page",
+          "field": null,
+          "path": "Ahmed Istiaq › YouTube",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#login"
+        }
+      ],
       "sources": [
-        "static: (page)"
+        "Footer › YouTube",
+        "Top of page › YouTube",
+        "Ahmed Istiaq › YouTube"
       ]
     }
   ]

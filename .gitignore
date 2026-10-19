@@ -1,6 +1,5 @@
 .env
 backups/
-reports/
 __pycache__/
 .streamlit/secrets.toml
 *.json.key

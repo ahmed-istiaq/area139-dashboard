@@ -1,0 +1,56 @@
+name: Link check
+
+on:
+  schedule:
+    - cron: "0 3 * * 1,4"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: link-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests python-dotenv
+
+      - name: Check links (fails the job if any link is broken)
+        run: python link_checker.py
+        env:
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: link-report
+          path: reports/
+
+      - name: Commit report for the dashboard
+        if: always()
+        run: |
+          if [ ! -f reports/link_report.json ]; then
+            echo "No report was produced, nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/link_report.json reports/link_report.md
+          if git diff --cached --quiet; then
+            echo "Report unchanged."
+          else
+            git commit -m "Update link report"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push
+          fi

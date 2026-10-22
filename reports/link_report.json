@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-19T08:16:20+00:00",
+  "generated_at": "2026-10-22T08:06:47+00:00",
   "summary": {
-    "BROKEN": 2,
+    "BROKEN": 1,
     "WARN": 0,
     "SKIP": 0,
-    "OK": 74,
+    "OK": 75,
     "total": 76
   },
   "notes": [
@@ -51,37 +51,6 @@
         "Footer › Facebook",
         "Top of page › Facebook",
         "Ahmed Istiaq › Facebook"
-      ]
-    },
-    {
-      "url": "https://x.com/@AhmedIstiayj5r",
-      "status": "BROKEN",
-      "detail": "HTTP 404 not found",
-      "locations": [
-        {
-          "area": "Footer",
-          "section_id": null,
-          "card": null,
-          "label": "X",
-          "origin": "Page",
-          "field": null,
-          "path": "Footer › X",
-          "site_link": "https://ahmed-istiaq.github.io/area139/"
-        },
-        {
-          "area": "Ahmed Istiaq",
-          "section_id": "login",
-          "card": null,
-          "label": "X",
-          "origin": "Page",
-          "field": null,
-          "path": "Ahmed Istiaq › X",
-          "site_link": "https://ahmed-istiaq.github.io/area139/#login"
-        }
-      ],
-      "sources": [
-        "Footer › X",
-        "Ahmed Istiaq › X"
       ]
     },
     {
@@ -1815,6 +1784,37 @@
         "Footer › YouTube",
         "Top of page › YouTube",
         "Ahmed Istiaq › YouTube"
+      ]
+    },
+    {
+      "url": "https://x.com/@AhmedIstiayj5r",
+      "status": "OK",
+      "detail": "HTTP 200",
+      "locations": [
+        {
+          "area": "Footer",
+          "section_id": null,
+          "card": null,
+          "label": "X",
+          "origin": "Page",
+          "field": null,
+          "path": "Footer › X",
+          "site_link": "https://ahmed-istiaq.github.io/area139/"
+        },
+        {
+          "area": "Ahmed Istiaq",
+          "section_id": "login",
+          "card": null,
+          "label": "X",
+          "origin": "Page",
+          "field": null,
+          "path": "Ahmed Istiaq › X",
+          "site_link": "https://ahmed-istiaq.github.io/area139/#login"
+        }
+      ],
+      "sources": [
+        "Footer › X",
+        "Ahmed Istiaq › X"
       ]
     }
   ]
